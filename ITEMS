@@ -203,7 +203,7 @@ class Vita:
     def __init__(self, screen, pos) -> None:
         self.screen = screen
         self.image = pygame.image.load('vita.png')
-        self.image = pygame.transform.scale(self.image,(60,60))
+        self.image = pygame.transform.scale(self.image,(30,30))
         self.rect = pygame.Rect((pos[0], pos[1]), 0,0)
         
     def rettangolo(self):
