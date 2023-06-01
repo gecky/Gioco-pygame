@@ -1,7 +1,7 @@
 # Gioco-pygame
 import pygame, sys, os
 from pygame.locals import *
-from ITEMS import diamante,smeraldo,viola,topazio,zaffiro,bomba,rosso,rossopremuto,gameover,bombanucleare,play,playdown
+from ITEMS import diamante,smeraldo,viola,topazio,zaffiro,bomba,rosso,rossopremuto,gameover,bombanucleare,play,playdown,Vita
 from random import randint
 from os.path import join
 import time
