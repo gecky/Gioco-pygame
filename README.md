@@ -35,7 +35,6 @@ damage=5
 speed=2
 acc=0.0050),randint(-600,-150)))
 nuke=bombanucleare(screen,(randint(50,550),randint(-600,-150)))
-xvite = [0,2,4,6,8]
 
 
 font1 = pygame.font.SysFont('Times New Roman', 24)
@@ -78,8 +77,13 @@ topazio1=topazio(screen,(randint(50,550),randint(-600,-150)))
 viola1=viola(screen,(randint(50,550),randint(-600,-150)))
 zaffiro1=zaffiro(screen,(randint(50,550),randint(-600,-150)))
 smeraldo1=smeraldo(screen,(randint(50,550),randint(-600,-150)))
-    for el in xvite:
-        vita = Vita(screen,(el,0))
+vita1 = Vita(screen,(35,20))
+vita2 = Vita(screen,(70,20))
+vita3 = Vita(screen,(105,20))
+vita4 = Vita(screen,(140,20))
+vita5 = Vita(screen,(175,20))
+vite = [vita1, vita2, vita3, vita4, vita5]
+
 
 
 bomba1=bomba(screen,(randint(50,550),randint(-600,-150)))
@@ -227,7 +231,7 @@ bomba2=bomba(screen,(randint(50,55
 
             punteggio=font1.render(f'PUNTEGGIO:  {points}',True,'WHITE')
             for i in range(damage):
-                    vite.draw()            
+                    vite[i].draw()            
             screen.blit(punteggio,(0,0))
             screen.blit(danni,(0,50))
         if damage<=0:
