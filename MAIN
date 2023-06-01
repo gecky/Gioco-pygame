@@ -101,9 +101,9 @@ font4 = pygame.font.SysFont('freesansbold.ttf', 30)
 
 scrittadiamante=font4.render(f'Da +5 punti se colpito, se cade perdi una vita',True,'black')
 scrittaviola=font4.render(f'Da +4 punti se colpito, se cade perdi una vita',True,'black')
-scrittasmeraldo=font4.render(f'Da +5 punti se colpito, se cade perdi una vita',True,'black')
-scrittazaffiro=font4.render(f'Da +5 punti se colpito, se cade perdi una vita',True,'black')
-scrittatopazio=font4.render(f'Da +5 punti se colpito, se cade perdi una vita',True,'black')
+scrittasmeraldo=font4.render(f'Da +3 punti se colpito, se cade perdi una vita',True,'black')
+scrittazaffiro=font4.render(f'Da +2 punti se colpito, se cade perdi una vita',True,'black')
+scrittatopazio=font4.render(f'Da +1 punti se colpito, se cade perdi una vita',True,'black')
 scrittabomba=font4.render(f'Toglie -1 vita se colpita',True,'black')
 scrittanuke=font4.render(f'Toglie -3 vite se copita',True,'black')
 
